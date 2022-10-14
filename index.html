@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webify</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body id="the_whole_shabang">
+  <div class="top-section">
+    <nav class="navbar">
+      <div class="navbar_container">
+        <img src="logo.png" class="navbar_logo" alt="Logo">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="navbar__menu">
+
+          <li class="navbar__item">
+            <a href="#what_we_do" class="navbar__links" id="whatwedo-page">WHAT WE DO</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#pricing" class="navbar__links" id="pricing-page">PRICING</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about_us" class="navbar__links" id="about-page">ABOUT</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links" id="contact-page">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="hero" id="home">
+      <div class="hero__container">
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Easy", "Fast", "Cheap"]'>
+            <span class="wrap">Webify Makes Websites</span>
+          </a>
+        
+        <p class="hero__description">Get your dream website for your small business,<br> school, or your next big event.
+        </p>
+        <a href='#pricing' class="button-85">Pricing</a>
+    </div>
+
+    </div>
+  </div>
+  <div class="main" id="what_we_do">
+    <h1 class="header_how">How Does This Work?</h1>
+    <div class="main__container">
+      <div class="all-columns">
+        <img src="payment.png" class="img" alt="payment">
+        <h1>You Buy Our <br>Template</h1>
+        
+
+      </div>
+      
+      <div class="all-columns">
+        <img src="write.png" class="img_write" alt="writing">
+        <h1>We Customize<br> it</h1>
+
+      </div>
+      <div class="all-columns">
+        <img src="css.png" class="img_css" alt="css">
+
+        <h1>You recieve it</h1>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="pricing" id="pricing">
+    <h1 class="pricing_template">Our Templates</h1>
+    <div class="pricing__container">
+      <a href="./payment.html"><div class="all-columns-pricing">
+
+        <img src="placeholder.png" class="placehold" alt="placeholder">
+        <h1>$price</h1>
+        
+
+      </div></a>
+      <a href="./payment.html">
+        <div class="all-columns-pricing">
+          <img src="placeholder.png" class="placehold" alt="placeholder">
+          <h1>$price</h1>
+  
+        </div>
+      </a>
+      
+      
+    </div>
+  
+  </div>
+
+  <div class="middle" id="filler">
+      <div class="all-columns-filler">
+        <img src="rocket.png" class="img" alt="rocket">
+
+        <h1 class="head">Fast Speeds</h1>
+        <p class="paragraph">We aim to deliver
+          your website in less than 1 day!</p>
+
+      </div>
+      <div class="all-columns-filler">
+        <img src="chat.png" class="img_write" alt="chat">
+        <h1 class="head">Swift Support</h1>
+        <p class="paragraph">Send us an inquiry or problem
+          and recieve quick support!
+        </p>
+      </div>
+      <div class="all-columns-filler">
+        <img src="medal.png" class="img_css" alt="medal">
+        <h1 class="head">Quality Sites</h1>
+        <p class="paragraph"> We give you only our best
+          sites to our customers
+        </p>
+      </div>
+  </div>
+
+
+  <div class="about_us" id="about_us">
+    <h1 class="about_header">About Us</h1>
+    <div class="about__container">
+      <div class="all-columns-about">
+        <h1 class="about_h">Hi</h1>
+        <p class="about_p">My Name is Luke, I started this business to help local businesses grow with satisfying websites, and hope to stay true to that idea while helping many others.</p>
+      </div>
+      
+      <div class="all-columns-about">
+        <h1 class="about_h">I am Proficient in:</h1>
+        <p class="about_pp">Html <br> Css <br> Javascript </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container_form" id="contact">
+    <h1 class="contact_header">CONTACT US!</h1>
+
+    <form action="action_page.php">
+      <div class="row">
+        
+        <div class="col-75">
+          <label class="text">Full Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-75">
+          <label class="text">Email</label>
+
+          <input type="text" id="email" name="email" placeholder="Your Email...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          
+        </div>
+        <div class="col-75">
+          <label class="text">Inquiry</label>
+
+          
+          <textarea id="subject" name="inquiry" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <div class="footer" id="footer">
+    <h1 class = "header_hours">Business Hours</h1>
+    <p class="business_hours">Weekdays : 3:20PM - 10:00PM <br> Weekends: 1:00PM - 9:00PM</p>
+    <p class= "copyright">Copyright - Luke 2022</p>
+
+    
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
